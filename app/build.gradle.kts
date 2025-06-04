@@ -1,5 +1,13 @@
 plugins {
     id("com.android.application")
+    id("org.sonarqube")
+}
+
+sonar {
+    properties {
+        property("sonar.projectKey", "Ajinkya7242_MvvmRetrofit_8fdf4ee0-1a04-4005-ba1a-11269920cfb4")
+        property("sonar.projectName", "MvvmRetrofit")
+    }
 }
 
 android {
